@@ -1195,3 +1195,7 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
     position: relative;
     bottom: 2rem;
 }
+.hero-owudekudu {
+    background: url(assets/img/mission-field/Owudekudu/child.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
+}
