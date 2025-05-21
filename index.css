@@ -1199,3 +1199,7 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
     background: url(assets/img/mission-field/Owudekudu/child.jpg) center center/cover no-repeat;
     background-attachment: fixed;
 }
+.hero-japo {
+    background: url(assets/img/mission-field/Japo/wideArm.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
+}
