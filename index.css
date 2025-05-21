@@ -1203,3 +1203,7 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
     background: url(assets/img/mission-field/Japo/wideArm.jpg) center center/cover no-repeat;
     background-attachment: fixed;
 }
+.hero-akogun {
+    background: url(assets/img/mission-field/akogun/ministry1.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
+}
