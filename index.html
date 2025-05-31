@@ -42,8 +42,30 @@
                     <li><a class="menu-item" href="index.html">Home</a></li>
                     <li><a class="menu-item" href="#about">About</a></li>
                     <li><a class="menu-item" href="#team">Team</a></li>
-                    <li><a class="menu-item" href="#service">Service</a></li>
-                    <li><a class="menu-item" href="#portfolio">Portfolio</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Service
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="menu-item" href="Outreach.html">Outreaches</a></li>
+                            <li><a class="menu-item" href="missionSchool.html">Schools</a></li>
+                            <li><a class="menu-item" href="conference.html">Sol Conference</a></li>
+                            <li><a class="menu-item" href="mtc.html">MTC</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mission Fields
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="menu-item" href="benin.html">Benin Republic</a></li>
+                            <li><a class="menu-item" href="IshokoField.html">Ishoko</a></li>
+                            <li><a class="menu-item" href="OwudekuduField.html">Owudekudu</a></li>
+                            <li><a class="menu-item" href="japoField.html">Japo</a></li>
+                            <li><a class="menu-item" href="AkogunField.html">Akogun</a></li>
+                            <li><a class="menu-item" href="OyegunleField.html">Oyegunle</a></li>
+                        </ul>
+                    </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Connect Us
@@ -54,7 +76,7 @@
                             <li><a class="menu-item" href="#contact">Contact Us</a></li>
                         </ul>
                     </li>
-                    <li><a class="donate menu-item btn btn-primary text-white" href="#donate">Donate</a></li>
+                    <li><a class="donate menu-item btn btn-primary text-white" href="donate.html">Donate</a></li>
                 </ul>
             </nav>
         </div>
@@ -63,17 +85,15 @@
 
     <main class="main">
         <!-- Hero Section -->
-        <section id="hero" class="d-flex align-items-center justift-content-center ">
-            <div class="container" data-aos="fade-up">
+        <section id="hero" class="d-flex align-items-center justift-content-center text-white">
+            <div class="container text-center text-md-start">
                 <div class="row">
-                    <div class="col" data-aos="zoom-in" data-aos-delay="150">
-                        <h1 class=" logo fw-bolder text-white">Welcome to <span class="text-primary">SOL</span></h1>
-                        <p class="para1 text-white">SPRINGS OF LIFE GLOBAL EVANGELISTIC MINISTRY<br>Official Website</p>
-                        <p class="blockquote-footer text-white">Christ Centered Missions</p>
-                        <a href="#about" class="btn">Get Started</a>
+                    <div class="col ms-4" data-aos="zoom-in" data-aos-delay="150">
+                        <h1 class="display-3 fw-bolder pb-3">Welcome to <span class="text-primary">SOL</span></h1>
+                        <p class="lead">SPRINGS OF LIFE GLOBAL EVANGELISTIC MINISTRY<br>Official Website</p>
+                        <p class="blockquote-footer text-white mt-3">Christ Centered Missions</p>
+                        <a href="#about" class="btn mt-3">Get Started</a>
                     </div>
-                    <p></p>
-                    <div></div>
                 </div>
             </div>
         </section>
@@ -730,11 +750,11 @@
 
             <div id="partner" class="container">
                 <!--- Partner ---->
-                <div class="col-lg-12 pb-5" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-12 pb-5" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-12 justified-text">
                         <p>Evangelism amongst the unreached, discipleship via church plants and children ministry via schools is the heart of all we do at Springs of Life Global evangelistic ministry (SOL), as we seek to fulfill the great commission. We will be honoured if you will commit to partner with us in any way the Lord leads you.</p>
                     </div>
-                    <form action="https://formspree.io/f/xpwpplpj" method="post" class="p-4 border rounded mx-5">
+                    <form action="https://formspree.io/f/xpwpplpj" method="post" class="p-4 border rounded mx-lg-5">
                     <div class="row gy-4">
 
                         <div class="col-md-6">
@@ -747,7 +767,7 @@
                         <input type="email" class="form-control" name="email" id="email-field" required="">
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-6 ">
                         <label for="occupation-field" class="pb-2 form-label">Occupation</label>
                         <input type="text" class="form-control" name="subject" id="occupation-field" required="">
                         </div>
@@ -800,48 +820,31 @@
                 </div><!-- End Partner Form -->
             </div>
       </section>
-      <section id="donate" class="container pt-5">
-        <div class="card mb-3 shadow" data-aos="fade-up" data-aos-delay="100">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/img/donate.jpg" class="card-img-top full-height-img rounded" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body p-4">
-                    <h2 class="card-title text-center mb-4">Support Our <span class="span-blue">Cause</span></h2>
-                    <p class="text-center">Your donation helps us continue our mission.</p>
-                    <form id="donation-form">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Full Name</label>
-                            <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email Address</label>
-                            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="number-field" class="pb-2 form-label">Phone Number</label>
-                            <input type="number" class="form-control" name="subject" id="number-field" placeholder="Enter your Number" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="amount" class="form-label">Amount (₦)</label>
-                            <input type="number" id="amount" class="form-control" placeholder="Enter amount" required>
-                        </div>
-                        <button type="button" onclick="payWithPaystack()" class="btn btn-primary w-100">Donate Now</button>
-                    </form>
+      <!-- Call to Action Section -->
+            <section class="py-5 text-center text-white">
+              <div class="position-relative">
+                <div class="position-absolute top-0 bottom-0 start-0 end-0 bg-dark bg-opacity-75"></div>
+                <div class="cta-donate py-5">
+                  <div class="container" data-aos="fade-up">
+                  <h2 class="display-5 ">Support Our <span class="span-blue">Cause</span></h2>
+                  <p class="lead">
+                    Your Donation helps us continue our Mission.
+                  </p>
+                  <a href="donate.html" class="btn btn-primary btn-lg mt-3 rounded-pill">Donate</a>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-      </section>
+
+              </div>           
+            </section>
+    
       <section id="volunteer" class="container mt-5 pt-5">
-        <div class="card mb-3 shadow" data-aos="fade-up" data-aos-delay="200">
-            <div class="row g-0">
+        <div class="mb-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="row align-items-centergy-3 ">
               <div class="col-md-4 order-lg-2">
                 <img src="assets/img/volunteer.jpg" class="card-img-top full-height-img rounded-start" alt="...">
               </div>
               <div class="col-md-8 order-lg-1">
-                <div class="card-body p-4">
+                <div class="p-4">
                     <h2 class="text-center mb-4">Become a <span class="span-blue">Volunteer</span> </h2>
                     <p class="text-center">"Join us in making a difference—lend your time, touch lives!"</p>
                     <form action="https://formspree.io/f/xpwpplpj" method="post">
@@ -977,9 +980,9 @@
              <div class="row gy-3">
                 <div class="col-lg-4">
                     <h2>Springs of Life Evangelistic Ministry(SOL)</h2>
-                    <P>Federal University of Agriculture <br/> P.M.B 3108</P>
-                    <P><strong>Phone:</strong> +23460669825</P>
-                    <P><strong>Email:</strong> saintgeorge.001@gmail.com</P>
+                    <P>No 3, Obasanjo Way, Akinolugbade, Abeokuta,<br/> Ogun State</P>
+                    <a href="tel:+2348038926146" class="text-decoration-none text-black"><p><strong>Phone:</strong> +2348038926146</p></a>
+                    <a href="mailto:springsoflifeglobalmissions@gmail.com" class="text-decoration-none text-black"><P><strong>Email:</strong> springsoflifeglobalmissions@gmail.com</P></a>
                     <div class="social-links mt-3">
                         <i class="bx bxl-twitter"><a href="#"></a></i>
                         <i class="bx bxl-facebook"><a href="#"></a></i>
@@ -1012,13 +1015,14 @@
                 </div>
              </div>
              <div class="row text-center mt-4 footer-bottom ">
-                <p class="m-0">Copyright <strong>SOL</strong> All Rights Reserved</p>
-                <p class="m-0">Designed by <span>StGeorge</span></p>
+                <p class="m-0">&copy; Copyright <strong>SOL</strong> All Rights Reserved</p>
+                <p class="m-0">Designed by <span>St-George</span></p>
              </div>   
             </div>
             
         </div>
     </footer> <!-- End of Footer-->
+
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

@@ -85,6 +85,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
+    width: fit-content;
 }
 
 nav ul li a:hover {
@@ -178,6 +179,7 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
     }
    .donate {
         margin-left: 3rem;
+        margin-top: 0 !important;
     }
     nav.menu ul li a {
         color: #333;
@@ -193,6 +195,7 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
 }
 .donate {
     margin-left: 1.2rem;
+    margin-top: 2rem;
 }
 
 /** Preloader **/
@@ -291,10 +294,8 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
 
 /*Hero Page*/
 #hero {
-    width: 100%;
     min-height: 90vh;
-    background: url("assets/img/child-smiles.jpg") center center;
-    background-size: cover;
+    background: url("assets/img/child-smiles.jpg") center center/cover no-repeat;
     background-attachment: fixed;
     position: relative;
 }
@@ -307,37 +308,17 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
     left: 0;
     right: 0;
 }
-#hero .container {
-    position: relative;
-}
-
-.logo {
-    font-weight: 700;
-    font-size: 1.8rem;
-    line-height: 2.25rem;
-    color: #fff;
-
-}
-
-.para1 {
-    font-size: 1.2rem;
-    font-weight: 420;
-    line-height: 1.5rem;
-    margin: 5px 0 30px 0;
-    color: #ffffff;
-}
 
 .col > a.btn {
     text-decoration: none;
     color: #f5f9ff;
     background-color: #106eea;
     align-self: center;
-    border-radius: .5rem;
     font-size: .9rem;
     font-weight: 400;
     letter-spacing: 1px;
     padding: 12px 20px;
-    border-radius: 4px;
+    border-radius: 40px;
     transition: 0.5s;
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 
@@ -346,23 +327,6 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
 .col > a.btn:hover {
     background-color: #569bf6;
     transition: 0.3s ease;
-}
-@media (min-width: 641px) {
-    #hero h1.logo {
-      font-size: 3rem;
-      line-height: 3.6rem;
-    }
-  
-    .para1 {
-        font-size: 1.5rem;
-        line-height: 2rem;
-        margin-bottom: 30px;
-    }
-  
-    .hero a.btn {
-      font-size: 1rem;
-    }
-     
 }
 /* About Section */
 #about {
@@ -1187,8 +1151,6 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
 .hero-benin2 {
     background: url(assets/img/mission-field/Ishoko/hands.jpg) center center/cover no-repeat;
     width: 100%;
-    flex-direction: column;
-    color: #ffff;
     background-attachment: fixed;
 }
 #move {
@@ -1205,5 +1167,24 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
 }
 .hero-akogun {
     background: url(assets/img/mission-field/akogun/ministry1.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
+}
+.hero-sch {
+    background: url("assets/img/publicContain.jpg") center center/cover no-repeat;
+    background-attachment: fixed;
+}
+.cta {
+    background: url(assets/img/ctaBg.jpg) center center/cover no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+}
+.donate-bg {
+    background: url(assets/img/donate.jpg) center center/cover no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+}
+.cta-donate {
+    background: url(assets/img/cta-bg.jpg) center center/cover no-repeat;
+    width: 100%;
     background-attachment: fixed;
 }
