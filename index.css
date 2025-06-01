@@ -1080,9 +1080,6 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
     text-align: center;
     transition: ease-in-out 0.3s;
 }
-.mtc-programe {
-    background: url(assets/img/mtc/mtcbg.jpg);
-}
 
 /** Hero-Conference **/
 .hero-conference {
