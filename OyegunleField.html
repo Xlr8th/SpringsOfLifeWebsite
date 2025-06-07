@@ -6,6 +6,7 @@
         <title>SOL</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
         <link href="assets/img/logo.png" rel="icon">
 
@@ -26,22 +27,23 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
     <body>
+
       <header>
-        <div>
-           <a href="index.html"><img class="img-fluid" src="assets/img/logo.png" alt="brand logo"></a>  
-        </div>
-        <div class="mainMenu">
-            <input type="checkbox" id="toggle" class="toggle-checkbox">
-            <label for="toggle" class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            <nav class="menu">
-                <ul data-aos="fade-right">
-                    <li><a class="menu-item" href="index.html">Home</a></li>
-                    <li><a class="menu-item" href="#about">About</a></li>
-                    <li class="dropdown">
+          <div>
+            <a href="index.html"><img class="img-fluid" src="assets/img/logo.png" alt="brand logo"></a>  
+          </div>
+          <div class="mainMenu">
+              <input type="checkbox" id="toggle" class="toggle-checkbox">
+              <label for="toggle" class="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </label>
+              <nav class="menu">
+                  <ul data-aos="fade-right">
+                      <li><a class="menu-item" href="index.html">Home</a></li>
+                      <li><a class="menu-item" href="index.html#about">About</a></li>
+                      <li class="dropdown">
                         <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Mission Fields
                         </a>
@@ -54,40 +56,41 @@
                             <li><a class="menu-item" href="OyegunleField.html">Oyegunle</a></li>
                         </ul>
                     </li>
-                    <li><a class="menu-item" href="#team">Team</a></li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Service
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="menu-item" href="Outreach.html">Outreaches</a></li>
-                            <li><a class="menu-item" href="missionSchool.html">Schools</a></li>
-                            <li><a class="menu-item" href="conference.html">Sol Conference</a></li>
-                            <li><a class="menu-item" href="mtc.html">MTC</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Connect Us
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="menu-item" href="#partner">Partner with Us</a></li>
-                            <li><a class="menu-item" href="#volunteer">Volunteer</a></li>
-                            <li><a class="menu-item" href="#contact">Contact Us</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="donate menu-item btn btn-primary text-white" href="donate.html">Donate</a></li>
-                </ul>
-            </nav>
-        </div>
-        
+                      <li><a class="menu-item" href="index.html#team">Team</a></li>
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Service
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="menu-item" href="Outreach.html">Outreaches</a></li>
+                              <li><a class="menu-item" href="missionSchool.html">Schools</a></li>
+                              <li><a class="menu-item" href="conference.html">Sol Conference</a></li>
+                              <li><a class="menu-item" href="mtc.html">MTC</a></li>
+                          </ul>
+                      </li>
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Connect Us
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="menu-item" href="index.html#partner">Partner with Us</a></li>
+                              <li><a class="menu-item" href="index.html#volunteer">Volunteer</a></li>
+                              <li><a class="menu-item" href="index.html#contact">Contact Us</a></li>
+                          </ul>
+                      </li>
+                      <li><a class="donate menu-item btn btn-primary text-white" href="donate.html">Donate</a></li>
+                  </ul>
+              </nav>
+          </div>
+          
       </header>
+
       <main>
           <section>
               <!-- Page Title -->
               <div class="page-title sticky-header" data-aos="fade">
                   <div class="container d-lg-flex justify-content-between align-items-center">
-                  <h1 class="mb-2 mb-lg-0">Japo Mission Fields</h1>
+                  <h1 class="mb-2 mb-lg-0 span-pry">Oyegunle Mission Fields</h1>
                   <nav class="breadcrumbs">
                       <ol>
                       <li><a href="index.html">Home</a></li>
@@ -98,47 +101,90 @@
               </div><!-- End Page Title -->
           </section>
 
-          <section class="container" id="realtor" > <!-- === Realtor === -->
-              <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
-                <div class="col" data-aos="fade-left">
-                  <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
-                      <div id="swiper" class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="assets/img/mission-field/house1.jpg" class="img-fluid rounded" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="assets/img/mission-field/house 2.jpg" class="img-fluid rounded" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="assets/img/mission-field/house 3.jpg" class="img-fluid rounded" alt="...">
-                        </div>
-                      </div>
-                  </div>
+          <!-- Hero Section -->
+          <section class="d-flex  align-items-center justift-content-center hero-default hero-oyegunle py-5">
+            <div class="container text-white" data-aos="fade-up">
+              <h1 class="fw-bolder ">Oyegunle <span class="span-pry">Mission Field</span></h1>
+              <p class="lead">From a remote hilltop village to a growing beacon of hope.</p>
+              <a href="donate.html?cause=oyegunle" class="btn btn-primary btn-lg mt-3"><i class="fas fa-hands-helping me-2"></i> Get Involved</a>
+            </div>
+          </section>
+
+            <!-- Origin Section -->
+          <section class="py-5">
+            <div class="container"  data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-3 align-items-center">
+                <div class="col-md-6">
+                  <img src="https://picsum.photos/600/400?random=1" class="img-fluid rounded shadow" alt="Oyegunle Mission">
                 </div>
-                <div class="col " data-aos="fade-right">
-                  <div class="row g-1 pb-3 ">
-                    <div class="col-12 fw-bolder">
-                      <h1>Japo’s sprawling suburbs</h1>
-                    </div>
-                    <div class="col-12">
-                      <h5>From a rural village to a thriving community—Japo's transformation amidst Abeokuta's expansion.</h5>
-                    </div>                     
-                    <div class="col-12 ">
-                      <p>Japo was once a rural village, but as the city of Abeokuta expanded, it transformed into a thriving and ever-growing community. It is here that SOL established its first physical structure.</p>
-                    </div>
-                    <div class="col-12 ">
-                      <p>Currently, our church in Japo is the only SOL worship center in Abeokuta. Deeply mission-focused in every aspect, our services are designed to raise missions-minded believers who are equipped to discover their individual calling in God’s Great Commission. While our faith community welcomes and teaches as many as possible about the heartbeat of the Lord—missions—our primary emphasis remains on discipling young people and children. Testimonies of transformed lives abound.</p>
-                    </div>
-                    <div class="col-12">
-                      <p> The SOL team in Japo includes Pastor David and Mrs. Toyin Dania, Hassan Mohammed, and Salometu Eunice Mohammed.</p>
-                    </div>
-                    
-                  </div>
-                  
-                  
+                <div class="col-md-6">
+                  <h2 class="border-bottom border-2 border-primary">About Oyegunle</h2>
+                  <p>
+                    Located on a hill, Oyegunle was the smallest among a cluster of unevangelised villages discovered in 2019. After two years of consistent ministry in nearby Onidundun, Oyegunle became the base of SOL’s work, culminating in the planting of a church in September 2021.
+                  </p>
+                  <p>
+                    From a dilapidated hut where the first service was held, the Oyegunle church now sits on an acre of land. Plans are underway to establish a mission house and an animal husbandry farm to serve the community further.
+                  </p>
                 </div>
               </div>
-          </section> <!-- === End Realtor === -->
+            </div>
+          </section>
+
+          <!-- Evangelism Reach Section -->
+          <section class="bg-lightblue py-5">
+            <div class="container">
+              <h2 class=" text-center">Evangelism & Discipleship Reach</h2>
+              <p class="text-center mb-4">
+                SOL takes a hybrid approach in Oyegunle—combining structured, organic, attractional, and relational models of evangelism.
+              </p>
+              <div class="row text-center">
+                <div class="col-md-4 mb-3">
+                  <i class="fas fa-church fa-3x text-primary mb-3"></i>
+                  <h5>Church Planting</h5>
+                  <p>A growing church presence since 2021, now reaching villagers from 7 out of 9 surrounding communities.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <i class="fas fa-map-marker-alt fa-3x text-primary mb-3"></i>
+                  <h5>Village Outreach</h5>
+                  <p>Active evangelism across Oluwo, Bamoku, Ijomu, Eleyele, Asagbe, Odofin, Orile, Onidundun, and Oyegunle.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                  <h5>Cross-Cultural Ministry</h5>
+                  <p>Engaging idol worshippers and tribes from Nigeria and even the Benin Republic.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Impact Section -->
+          <section class="bg-light py-5">
+            <div class="container"  data-aos="fade-up" data-aos-delay="100">
+              
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <h2 class="text-center mb-4 border-bottom border-2 border-primary">Impact Stories</h2>
+                  <p>
+                  Oyegunle was once a hotspot for human trafficking and related crimes due to its remoteness. One of the most impactful moments came when SOL helped rescue a young girl from sex slavery and trafficking. By informing the authorities in Abeokuta and taking swift action, the traffickers were forced to flee, restoring peace and hope to the village.
+                </p>
+                </div>
+                <div class="col-md-6">
+                  <img src="https://picsum.photos/600/400?random=2" class="img-fluid rounded shadow" alt="Rescue story">
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Future Vision Section -->
+          <section class="bg-lightblue text-black py-5">
+            <div class="container text-center" data-aos="fade-up">
+              <h2>Looking Ahead</h2>
+              <p class="lead">
+                The vision for Oyegunle continues to expand. Our desire is to raise local leaders, establish a mission house, and empower the community through agriculture and discipleship training.
+              </p>
+              <a href="donate.html?cause=oyegunle" class="btn btn-outline-primary btn mt-3">Support the Vision</a>
+            </div>
+          </section>
 
           <section class=" portfolio " id="portfolio">
               <!-- Section Title -->
@@ -292,7 +338,7 @@
                     <h4>Useful Links</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right fs-4"></i><a href="index.html">Home</a></li>
-                        <li><i class="bx bx-chevron-right fs-4"></i><a href="#about">About us</a></li>
+                        <li><i class="bx bx-chevron-right fs-4"></i><a href="index.html#about">About us</a></li>
                         <li><i class="bx bx-chevron-right fs-4"></i><a href="missionSchool.html">Free Tuition Schools</a></li>
                         <li><i class="bx bx-chevron-right fs-4"></i><a href="Outreach.html">Outreaches</a></li>
                         <li><i class="bx bx-chevron-right fs-4"></i><a href="conference.html">Conferences</a></li>

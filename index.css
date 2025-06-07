@@ -333,7 +333,9 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
     background-color:#f5f9ff;
     overflow: hidden;
 }
-
+.bg-lightblue {
+    background-color: #f5f9ff;
+}
 #mainTitle {
     width: fit-content;
 }
@@ -1158,6 +1160,9 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
 .hero-owudekudu {
     background: url(assets/img/mission-field/Owudekudu/child.jpg) center center/cover no-repeat;
     background-attachment: fixed;
+}
+.hero-oyegunle {
+    background: url(assets/img/mission-field/Oyegunle/IMG-20250405-WA0152.jpg) center center/cover no-repeat;
 }
 .hero-japo {
     background: url(assets/img/mission-field/Japo/wideArm.jpg) center center/cover no-repeat;
