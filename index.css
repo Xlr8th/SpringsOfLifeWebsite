@@ -136,7 +136,7 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
 }
 
 /* adding breakPoints for Laptop&Tab*/
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
     header {
         justify-content: space-between;
         align-items: center;
@@ -1008,6 +1008,7 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
 .full-height-img {
     height: 100%;  /* Make the image fill the card height */
     object-fit: cover; /* Ensures the image covers the area without stretching */
+
 }
 
 .bold {
@@ -1133,7 +1134,7 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
 }
 /* Outreach Hero */
 .hero-outreach {
-    background: url(assets/img/Outreach/4940.jpg) center top;
+    background: url(assets/img/Outreach/4940.jpg) center top/cover no-repeat;
     
 }
 .hero-benin {
