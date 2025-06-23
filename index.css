@@ -1132,7 +1132,7 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
     top: -3px;
     color: #106eea;
 }
-/* Outreach Hero */
+/* Heroes */
 .hero-outreach {
     background: url(assets/img/Outreach/4940.jpg) center top/cover no-repeat;
     
@@ -1189,6 +1189,15 @@ nav.menu ul li.dropdown:hover .dropdown-menu {
 }
 .cta-donate {
     background: url(assets/img/cta-bg.jpg) center center/cover no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+}
+.hero-oba {
+    background: url(assets/img/mission-field/Oba/IMG-20250405-WA0013.jpg) top center/cover no-repeat;
+    background-attachment: fixed;
+}
+.cta-japo {
+    background: url(assets/img/mission-field/Japo/IMG-20230401-WA0182.jpg) center top/cover no-repeat;
     width: 100%;
     background-attachment: fixed;
 }
