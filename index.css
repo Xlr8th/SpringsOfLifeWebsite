@@ -1091,6 +1091,55 @@ nav ul li a:hover {
     transition: ease-in-out 0.3s;
 }
 
+/** What we Belive**/
+/* Prevent Bootstrap's default focus highlight and delay */
+.accordion-button:focus,
+.accordion-button:active,
+.accordion-button:not(.collapsed):focus {
+  box-shadow: none !important;
+}
+
+/* Accordion Header when Open */
+.accordion-button:not(.collapsed) {
+  background-color: #0d6efd !important;
+  color: white !important;
+  transition: none !important;
+}
+
+/* Disable transition on header */
+.accordion-button {
+  transition: none !important;
+}
+
+/* Apply background instantly to collapse container (not body!) */
+.accordion-collapse {
+  background-color: transparent !important;
+}
+
+/* Apply background color BEFORE it expands */
+.accordion-collapse.collapsing,
+.accordion-collapse.show {
+  background-color: #0d6efd !important;
+}
+
+/* Ensure white text appears instantly inside body */
+.accordion-body {
+  color: white !important;
+  transition: none !important;
+}
+
+.accordion-item .accordion-button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 30px 0 0;
+  transition: 0.3s;
+}
+
+.accordion-button:hover {
+    color: #106eea;
+}
+
 /** Hero-Conference **/
 .hero-conference {
     background: url(assets/img/Conference/904.jpg) center center;
@@ -1206,5 +1255,9 @@ nav ul li a:hover {
 .cta-japo {
     background: url(assets/img/mission-field/Japo/IMG-20230401-WA0182.jpg) center top/cover no-repeat;
     width: 100%;
+    background-attachment: fixed;
+}
+.hero-eriki {
+    background: url(assets/img/mission-field/Eriki/IMG-20250607-WA007.jpg) center center/cover no-repeat;
     background-attachment: fixed;
 }
