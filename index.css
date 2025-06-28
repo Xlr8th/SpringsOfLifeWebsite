@@ -1188,6 +1188,54 @@ nav ul li a:hover {
     top: -3px;
     color: #106eea;
 }
+/* Blog Outreach */
+.blog-header {
+    background: url('assets/img/Outreach/med/IMG-20250607-WA0019.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+}
+.blog-header::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.blog-header .container {
+    position: relative;
+    z-index: 1;
+}
+.blog-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.blog-content {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.blog-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+    font-style: italic;
+    color: #555;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.sidebar {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
 /* Heroes */
 .hero-outreach {
     background: url(assets/img/Outreach/4940.jpg) center top/cover no-repeat;
@@ -1230,7 +1278,7 @@ nav ul li a:hover {
     background-attachment: fixed;
 }
 .hero-sch {
-    background: url("assets/img/mission-field/Owudekudu/IMG-20250529-WA0001.jpg") center center/cover no-repeat;
+    background: url("assets/img/publicContain.jpg") center center/cover no-repeat;
     background-attachment: fixed;
 }
 .cta {
