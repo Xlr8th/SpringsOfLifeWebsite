@@ -1191,16 +1191,13 @@ nav ul li a:hover {
 /* Blog Outreach */
 .blog-header {
     background: url('assets/img/Outreach/med/IMG-20250607-WA0019.jpg') no-repeat center center/cover;
-    color: white;
-    padding: 80px 0;
-    text-align: center;
-    position: relative;
+
 }
 .blog-header::after {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
 }
 .blog-header .container {
     position: relative;
@@ -1210,12 +1207,7 @@ nav ul li a:hover {
     font-size: 3rem;
     font-weight: bold;
 }
-.blog-content {
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
+
 .blog-img {
     width: 100%;
     height: auto;
