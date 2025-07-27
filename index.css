@@ -1142,8 +1142,8 @@ nav ul li a:hover {
 
 /** Hero-Conference **/
 .hero-conference {
-    background: url(assets/img/Conference/904.jpg) center center;
-    
+    background: url(assets/img/Conference/yls/IMG_0381.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
 }
 .flip-left {
     display: inline-block;
@@ -1255,7 +1255,7 @@ blockquote {
     bottom: 2rem;
 }
 .hero-owudekudu {
-    background: url(assets/img/mission-field/Owudekudu/child.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/Owudekudu/field/dekudu-1.jpg) center center/cover no-repeat;
     background-attachment: fixed;
 }
 .hero-oyegunle {
