@@ -1228,6 +1228,14 @@ blockquote {
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
 }
+
+/* adding breakPoints for Laptop&Tab sideBar*/
+@media screen and (min-width:992px) {
+    .sidebar {
+      position: sticky;
+      top: 55px;
+    }
+}
 /* Heroes */
 .hero-outreach {
     background: url(assets/img/Outreach/4940.jpg) center top/cover no-repeat;
@@ -1255,7 +1263,7 @@ blockquote {
     bottom: 2rem;
 }
 .hero-owudekudu {
-    background: url(assets/img/mission-field/Owudekudu/field/dekudu-1.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/Owudekudu/IMG-20250529-WA0013.jpg) center center/cover no-repeat;
     background-attachment: fixed;
 }
 .hero-oyegunle {
