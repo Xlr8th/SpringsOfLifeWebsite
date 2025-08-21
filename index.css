@@ -304,7 +304,7 @@ nav ul li a:hover {
 /*Hero Page*/
 #hero {
     min-height: 90vh;
-    background: url("assets/img/child-smiles.jpg") center center/cover no-repeat;
+    background: url("assets/img/child-smiles.webp") center center/cover no-repeat;
     background-attachment: fixed;
     position: relative;
 }
@@ -563,7 +563,7 @@ nav ul li a:hover {
 --------------------------------------------------------------*/
 .testimonials {
     padding: 80px 0;
-    background: url("assets/img/testimonials-bg.jpg") no-repeat;
+    background: url("assets/img/testimonials-bg.webp") no-repeat;
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -954,7 +954,7 @@ nav ul li a:hover {
 
 /** Hero MTC **/
 .hero-default {
-    background: url(assets/img/mtc/IMG_0382.jpg) center center;
+    background: url(assets/img/mtc/IMG_0382.webp) center center;
     background-size: cover;
     position: relative;
     width: 100%;
@@ -987,7 +987,7 @@ nav ul li a:hover {
 #hero-sch {
     width: 100%;
     min-height: 60vh;
-    background: url("assets/img/publicContain.jpg") center center;
+    background: url("assets/img/publicContain.webp") center center;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
@@ -1144,7 +1144,7 @@ nav ul li a:hover {
 
 /** Hero-Conference **/
 .hero-conference {
-    background: url(assets/img/Conference/yls/IMG_0381.jpg) center center/cover no-repeat;
+    background: url(assets/img/Conference/yls/IMG_0381.webp) center center/cover no-repeat;
     background-attachment: fixed;
 }
 .flip-left {
@@ -1192,7 +1192,7 @@ nav ul li a:hover {
 }
 /* Blog Outreach */
 .blog-header {
-    background: url('assets/img/Outreach/med/IMG-20250607-WA0019.jpg') no-repeat center center/cover;
+    background: url('assets/img/Outreach/med/IMG-20250607-WA0019.webp') no-repeat center center/cover;
 
 }
 .blog-header::after {
@@ -1240,15 +1240,15 @@ blockquote {
 }
 /* Heroes */
 .hero-outreach {
-    background: url(assets/img/Outreach/4940.jpg) center top/cover no-repeat;
+    background: url(assets/img/Outreach/4940.webp) center top/cover no-repeat;
     
 }
 .hero-benin {
-    background: url(assets/img/mission-field/Ishoko/benin-hero.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/Ishoko/benin-hero.webp) center center/cover no-repeat;
     background-attachment: fixed;
 }
 .hero-ishoko {
-    background: url(assets/img/mission-field/Ishoko/IMG-20250529-WA001.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/Ishoko/IMG-20250529-WA001.webp) center center/cover no-repeat;
     
 }
 .box {
@@ -1256,7 +1256,7 @@ blockquote {
     color: #fff;
 }
 .hero-benin2 {
-    background: url(assets/img/mission-field/Ishoko/hands.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/Ishoko/hands.webp) center center/cover no-repeat;
     width: 100%;
     background-attachment: fixed;
 }
@@ -1265,49 +1265,49 @@ blockquote {
     bottom: 2rem;
 }
 .hero-owudekudu {
-    background: url(assets/img/mission-field/Owudekudu/IMG-20250529-WA0013.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/Owudekudu/IMG-20250529-WA0013.webp) center center/cover no-repeat;
     background-attachment: fixed;
 }
 .hero-oyegunle {
-    background: url(assets/img/mission-field/Oyegunle/IMG-20250405-WA0152.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/Oyegunle/IMG-20250405-WA0152.webp) center center/cover no-repeat;
 }
 .hero-japo {
-    background: url(assets/img/mission-field/Japo/IMG-Japo6.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/Japo/IMG-Japo6.webp) center center/cover no-repeat;
     background-attachment: fixed;
 }
 .hero-akogun {
-    background: url(assets/img/mission-field/akogun/akogun-1.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/akogun/akogun-1.webp) center center/cover no-repeat;
     background-attachment: fixed;
 }
 .hero-sch {
-    background: url("assets/img/publicContain.jpg") center center/cover no-repeat;
+    background: url("assets/img/publicContain.webp") center center/cover no-repeat;
     background-attachment: fixed;
 }
 .cta {
-    background: url(assets/img/mission-field/Ishoko/IMG-20250603-WA0028.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/Ishoko/IMG-20250603-WA0028.webp) center center/cover no-repeat;
     width: 100%;
     background-attachment: fixed;
 }
 .donate-bg {
-    background: url(assets/img/donate.jpg) center center/cover no-repeat;
+    background: url(assets/img/donate.webp) center center/cover no-repeat;
     width: 100%;
     background-attachment: fixed;
 }
 .cta-donate {
-    background: url(assets/img/cta-bg.jpg) center center/cover no-repeat;
+    background: url(assets/img/cta-bg.webp) center center/cover no-repeat;
     width: 100%;
     background-attachment: fixed;
 }
 .hero-oba {
-    background: url(assets/img/mission-field/Oba/IMG-20250405-WA0013.jpg) top center/cover no-repeat;
+    background: url(assets/img/mission-field/Oba/IMG-20250405-WA0013.webp) top center/cover no-repeat;
     background-attachment: fixed;
 }
 .cta-japo {
-    background: url(assets/img/mission-field/Japo/IMG-20230401-WA0182.jpg) center top/cover no-repeat;
+    background: url(assets/img/mission-field/Japo/IMG-20230401-WA0182.webp) center top/cover no-repeat;
     width: 100%;
     background-attachment: fixed;
 }
 .hero-eriki {
-    background: url(assets/img/mission-field/Eriki/IMG-20250607-WA007.jpg) center center/cover no-repeat;
+    background: url(assets/img/mission-field/Eriki/IMG-20250607-WA007.webp) center center/cover no-repeat;
     background-attachment: fixed;
 }
