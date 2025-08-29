@@ -318,7 +318,7 @@ nav ul li a:hover {
     right: 0;
 }
 
-.col > a.btn {
+.col > div > a.btn {
     text-decoration: none;
     color: #f5f9ff;
     background-color: #106eea;
@@ -332,11 +332,22 @@ nav ul li a:hover {
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 
 }
-
-.col > a.btn:hover {
+.col > div > a.btn:hover {
     background-color: #569bf6;
     transition: 0.3s ease;
 }
+.col > div > .btn-watch-video i  {
+  color: var(--accent-color);
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+.col > div > .btn-watch-video:hover i {
+  color: #106eea;
+}
+
 /* About Section */
 #about {
     background-color:#f5f9ff;
@@ -1240,7 +1251,7 @@ blockquote {
 }
 /* Heroes */
 .hero-outreach {
-    background: url(assets/img/Outreach/4940.webp) center top/cover no-repeat;
+    background: url(assets/img/Outreach/landingIMG.jpg) center center/cover no-repeat;
     
 }
 .hero-benin {
@@ -1263,6 +1274,10 @@ blockquote {
 #move {
     position: relative;
     bottom: 2rem;
+}
+.hero-mtc {
+    background: url(assets/img/mtc/IMG-20230330-WA0080.webp) center top/cover no-repeat;
+    background-attachment: fixed;
 }
 .hero-owudekudu {
     background: url(assets/img/mission-field/Owudekudu/IMG-20250529-WA0013.webp) center center/cover no-repeat;
@@ -1295,6 +1310,11 @@ blockquote {
 }
 .cta-donate {
     background: url(assets/img/cta-bg.webp) center center/cover no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+}
+.cta-dekudu {
+    background: url(assets/img/mission-field/Owudekudu/field/IMG-20181218-WA0072.jpg) center center/cover no-repeat;
     width: 100%;
     background-attachment: fixed;
 }
