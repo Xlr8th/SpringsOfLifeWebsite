@@ -317,6 +317,24 @@ nav ul li a:hover {
     left: 0;
     right: 0;
 }
+.col > a.btn {
+    text-decoration: none;
+    color: #f5f9ff;
+    background-color: #106eea;
+    align-self: center;
+    font-size: .9rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    border-radius: 40px;
+    transition: 0.5s;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+
+}
+.col > a.btn:hover {
+    background-color: #569bf6;
+    transition: 0.3s ease;
+}
 
 .col > div > a.btn {
     text-decoration: none;
