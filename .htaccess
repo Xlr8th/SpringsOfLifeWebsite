@@ -1,3 +1,10 @@
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# If the request isn't for an existing directory
+RewriteCond %{REQUEST_FILENAME} !-d
+# But adding ".html" to it makes it an existing file
+RewriteCond %{REQUEST_FILENAME}\.html -f
+# Then serve that .html file
+RewriteRule ^(.*)$ $1.html [L]
