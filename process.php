@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     @mail($to, $subject, $message, $headers);
 
     // 3. Redirect to Zoom registration page
-    header("Location: https://us04web.zoom.us/j/75905421030?pwd=H4f6YHQb7xR0vOPSJaxXb2getqDJqI.1"); // <-- replace with your actual Zoom registration link
+    header("Location: https://us06web.zoom.us/j/88512771537?pwd=29rhftMstYMYK9CeVcNbYj1Ta1ccib.1"); // <-- replace with your actual Zoom registration link
     exit();
 }
 ?>
