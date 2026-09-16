@@ -1,0 +1,27 @@
+<svg viewBox="0 0 1000 750" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="gd13" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14284D"/>
+      <stop offset="100%" stop-color="#1F3A66"/>
+    </linearGradient>
+    <pattern id="dd13" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="750" fill="url(#gd13)"/>
+  <rect width="1000" height="750" fill="url(#dd13)"/>
+  <circle cx="820.0" cy="165.0" r="67.5" fill="#E1542E" opacity="0.4"/><line x1="893.5" y1="165.0" x2="913.5" y2="165.0" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="883.7" y1="201.8" x2="901.0" y2="211.8" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="856.8" y1="228.7" x2="866.8" y2="246.0" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="820.0" y1="238.5" x2="820.0" y2="258.5" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="783.2" y1="228.7" x2="773.2" y2="246.0" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="756.3" y1="201.8" x2="739.0" y2="211.8" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="746.5" y1="165.0" x2="726.5" y2="165.0" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="756.3" y1="128.3" x2="739.0" y2="118.3" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="783.2" y1="101.3" x2="773.2" y2="84.0" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="820.0" y1="91.5" x2="820.0" y2="71.5" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="856.8" y1="101.3" x2="866.7" y2="84.0" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/>
+<line x1="883.7" y1="128.2" x2="901.0" y2="118.2" stroke="#F2895F" stroke-width="2" stroke-linecap="round" opacity="0.37"/><line x1="0" y1="540.0" x2="1000" y2="540.0" stroke="#F6F4EF" stroke-width="1.5" opacity="0.12"/>
+  <text x="32" y="694" font-family="Georgia, serif" font-size="22" fill="#F6F4EF" opacity="0.92">Day 1 photo 3</text>
+  <text x="32" y="720" font-family="Arial, sans-serif" font-size="13" letter-spacing="0.5" fill="#F6F4EF" opacity="0.55">REPLACE — images/day1-3.svg</text>
+</svg>
