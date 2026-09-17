@@ -728,12 +728,13 @@ a {
 .byline {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin: 0 0 32px;
+  padding-bottom: 10px;
   border-bottom: 1px solid var(--line);
+  margin-bottom: 14px;
 }
-.byline > div {
-  width: fit-content;
+.avatar {
+  width: 100px;
+  margin: 0;
 }
 .byline-avatar {
   width: 64px;
@@ -742,14 +743,10 @@ a {
   object-fit: cover;
   background: var(--accent-color);
 }
-.byline-info { 
-  min-width: 0; 
+.byline-info {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 0;
-  align-items: start;
-  justify-content: center;
-  padding-top: 0rem ;
 }
 .byline-name {
   font-size: 1rem !important;
