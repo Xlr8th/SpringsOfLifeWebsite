@@ -1354,7 +1354,10 @@
                     </div>
                     <div class="col-12" data-aos="fade-up" data-aos-delay="100">
                         <p class="text-center text-muted pb-4">
-                            <small>Stay informed about our impactful missionary work in all out Mission fields. Discover stories of transformation, Medical Outreaches, training initiatives for local leaders, and community projects that uplift diverse tribal communities through hope and faith.</small>
+                            <small>Stay informed about our impactful missionary work in all out Mission fields. Discover
+                                stories of transformation, Medical Outreaches, training initiatives for local leaders,
+                                and community projects that uplift diverse tribal communities through hope and
+                                faith.</small>
                         </p>
                     </div>
                 </div>
@@ -1366,10 +1369,31 @@
                             <div class="card-body">
                                 <p class="text-primary"><small>12 SEPTEMBER 2026</small></p>
                                 <h5 class="card-title bold">Highlights from the MTC Reboot Conference</h5>
-                                <p class="card-text text-muted"><small>Our alumni came, they heard, and now they run. See how the maiden MTC Reboot Conference sent them back to the field, refocused and re-fired.</small></p>
+                                <p class="card-text text-muted"><small>Our alumni came, they heard, and now they run.
+                                        See how the maiden MTC Reboot Conference sent them back to the field, refocused
+                                        and re-fired.</small></p>
                             </div>
                             <div class="mb-3">
-                                <a class="mt-3 text-primary text-decoration-none col-4 mb-3 ms-3" href="mtc-blog/index.html">READ MORE
+                                <a class="mt-3 text-primary text-decoration-none col-4 mb-3 ms-3"
+                                    href="mtc-blog/index.html">READ MORE
+                                    &nbsp; <i class="fas fa-arrow-right"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card rounded-4">
+                            <img src="book-launch/images/book.jpg" class="card-img-top" alt.webp="...">
+                            <div class="card-body">
+                                <p class="text-primary"><small>12 SEPTEMBER 2026</small></p>
+                                <h5 class="card-title bold">SOL Premieres Three Transformative Books</h5>
+                                <p class="card-text text-muted"><small> Sweet Hour of Prayer, SEND US OUT, and The Art
+                                        of Praying The Scriptures were unveiled at "A Morning of Word and Fellowship" in
+                                        Abeokuta — now available to the public.</small></p>
+                            </div>
+                            <div class="mb-3">
+                                <a class="mt-3 text-primary text-decoration-none col-4 mb-3 ms-3"
+                                    href="book-launch/index.html">READ MORE
                                     &nbsp; <i class="fas fa-arrow-right"></i></a>
                             </div>
 
@@ -1390,23 +1414,6 @@
                             <div class="mb-3">
                                 <a class="mt-3 text-primary text-decoration-none col-4 mb-3 ms-3"
                                     href="medicalBlog_2025.html">READ MORE &nbsp; <i class="fas fa-arrow-right"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex justify-content-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="card rounded-4">
-                            <img src="assets/img/Outreach/blog/medLove.webp" class="card-img-top" alt.webp="...">
-                            <div class="card-body">
-                                <p class="text-primary"><small>11 JUNE 2025</small></p>
-                                <h5 class="card-title bold">Empowerment Through Training</h5>
-                                <p class="card-text text-muted"><small> Learn about our Missions Training Centre,
-                                        designed to equip volunteers and local leaders with vital skills for effective
-                                        outreach and evangelism.</small></p>
-                            </div>
-                            <div class="mb-3">
-                                <a class="mt-3 text-primary text-decoration-none col-4 mb-3 ms-3" href="#">READ MORE
-                                    &nbsp; <i class="fas fa-arrow-right"></i></a>
                             </div>
 
                         </div>
@@ -1598,17 +1605,18 @@
     </div>
 
     <!-- ===== PROMO WIDGET MARKUP ======= -->
-    <a href="mtc-blog/index.html" class="promo-widget" id="promoWidget">
-        <button type="button" class="promo-widget-close" id="promoWidgetClose" aria-label="Dismiss">&times;</button>
-        <span class="promo-widget-thumb">
-            <img src="https://dummyimage.com/100x100/0d3f8f/ffffff.png&text=MTC" alt="">
-        </span>
-        <span class="promo-widget-text">
-            <span class="promo-widget-tag">Latest Update</span>
-            <span class="promo-widget-title">Our Alumni Are on Fire — Reboot Conference highlights</span>
-        </span>
-        <span class="promo-widget-arrow">&#8594;</span>
-    </a>
+    <div class="lu-widget" id="luWidget" aria-live="polite">
+        <button type="button" class="lu-close" id="luClose" aria-label="Dismiss">&times;</button>
+        <a class="lu-body" id="luBody" href="#">
+            <span class="lu-thumb"><img id="luThumb" src="" alt=""></span>
+            <span class="lu-text">
+                <span class="lu-tag" id="luTag">Latest Update</span>
+                <span class="lu-title" id="luTitle"></span>
+            </span>
+            <span class="lu-arrow">&#8594;</span>
+        </a>
+        <div class="lu-nav" id="luNav"></div>
+    </div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

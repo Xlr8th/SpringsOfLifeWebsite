@@ -1,17 +1,92 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const widget = document.getElementById('promoWidget');
-  if (!widget) return;
 
-  const closeBtn = document.getElementById('promoWidgetClose');
-  const DISMISS_KEY = 'promoWidgetDismissed';
+  // ============ ADD FUTURE UPDATES HERE ============
+  // Newest first. Each item needs: tag, title, href, image.
+  const SITE_BASE = '/SpringsOfLifeWebsite';
 
-  // Respect a dismissal for the rest of the browser session
-  if (sessionStorage.getItem(DISMISS_KEY) === '1') {
-    return;
+  const UPDATES = [
+    {
+      tag: 'Latest Update',
+      title: 'Our Alumni Are on Fire: Highlights from the Maiden MTC Reboot Conference',
+      href: `${SITE_BASE}/mtc-blog/index.html`,
+      image: `${SITE_BASE}/mtc-blog/images/hero.jpg`
+    },
+    {
+      tag: 'Press Release',
+      title: 'SOL Premieres Three Transformative Books by Pastor Henry Oise',
+      href: `${SITE_BASE}/book-launch/index.html`,
+      image: `${SITE_BASE}/book-launch/images/flyer.jpg`
+    }
+  ];
+  // ===================================================
+
+  const widget = document.getElementById('luWidget');
+  if (!widget || UPDATES.length === 0) return;
+
+  const body   = document.getElementById('luBody');
+  const thumb  = document.getElementById('luThumb');
+  const tagEl  = document.getElementById('luTag');
+  const titleEl = document.getElementById('luTitle');
+  const navEl  = document.getElementById('luNav');
+  const closeBtn = document.getElementById('luClose');
+
+  const DISMISS_KEY = 'luWidgetDismissed';
+  if (sessionStorage.getItem(DISMISS_KEY) === '1') return;
+
+  let index = 0;
+  let rotateTimer = null;
+
+  function render() {
+    const item = UPDATES[index];
+    body.href = item.href;
+    thumb.src = item.image;
+    thumb.alt = '';
+    tagEl.textContent = item.tag;
+    titleEl.textContent = item.title;
+
+    navEl.querySelectorAll('button').forEach((dot, i) => {
+      dot.classList.toggle('active', i === index);
+    });
   }
 
-  // Show it after the visitor has scrolled a bit, so it doesn't
-  // fight with the hero for attention on first load.
+  function buildDots() {
+    if (UPDATES.length <= 1) { navEl.style.display = 'none'; return; }
+    navEl.innerHTML = '';
+    UPDATES.forEach((_, i) => {
+      const dot = document.createElement('button');
+      dot.type = 'button';
+      dot.setAttribute('aria-label', `Show update ${i + 1}`);
+      dot.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        index = i;
+        render();
+        restartRotation();
+      });
+      navEl.appendChild(dot);
+    });
+  }
+
+  function rotate() {
+    index = (index + 1) % UPDATES.length;
+    render();
+  }
+
+  function restartRotation() {
+    clearInterval(rotateTimer);
+    if (UPDATES.length > 1) {
+      rotateTimer = setInterval(rotate, 7000);
+    }
+  }
+
+  buildDots();
+  render();
+  restartRotation();
+
+  widget.addEventListener('mouseenter', () => clearInterval(rotateTimer));
+  widget.addEventListener('mouseleave', restartRotation);
+
+  // Show after scrolling ~half a screen, with a 6s fallback
   let shown = false;
   function maybeShow() {
     if (shown) return;
@@ -22,21 +97,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   window.addEventListener('scroll', maybeShow, { passive: true });
+  setTimeout(() => { if (!shown) { widget.classList.add('visible', 'pulse'); shown = true; } }, 6000);
 
-  // Fallback: show anyway after 6s even if they haven't scrolled
-  setTimeout(() => {
-    if (!shown) {
-      widget.classList.add('visible', 'pulse');
-      shown = true;
-    }
-  }, 6000);
+  closeBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    widget.classList.remove('visible');
+    clearInterval(rotateTimer);
+    sessionStorage.setItem(DISMISS_KEY, '1');
+  });
 
-  if (closeBtn) {
-    closeBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      widget.classList.remove('visible');
-      sessionStorage.setItem(DISMISS_KEY, '1');
-    });
-  }
 });
