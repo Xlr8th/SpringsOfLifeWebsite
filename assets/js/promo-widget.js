@@ -2,20 +2,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ============ ADD FUTURE UPDATES HERE ============
   // Newest first. Each item needs: tag, title, href, image.
-  const SITE_BASE = '/SpringsOfLifeWebsite';
-
   const UPDATES = [
     {
       tag: 'Latest Update',
       title: 'Our Alumni Are on Fire: Highlights from the Maiden MTC Reboot Conference',
-      href: `${SITE_BASE}/mtc-blog/index.html`,
-      image: `${SITE_BASE}/mtc-blog/images/hero.jpg`
+      href: '/SpringsOfLifeWebsite/mtc-blog/index.html',
+      image: '/SpringsOfLifeWebsite/mtc-blog/images/flyer.jpg'
     },
     {
       tag: 'Press Release',
       title: 'SOL Premieres Three Transformative Books by Pastor Henry Oise',
-      href: `${SITE_BASE}/book-launch/index.html`,
-      image: `${SITE_BASE}/book-launch/images/flyer.jpg`
+      href: '/SpringsOfLifeWebsite/book-launch/index.html',
+      image: '/SpringsOfLifeWebsite/book-launch/images/flyer.jpg'
     }
   ];
   // ===================================================
