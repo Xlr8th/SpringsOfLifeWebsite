@@ -6,14 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       tag: 'Latest Update',
       title: 'Our Alumni Are on Fire: Highlights from the Maiden MTC Reboot Conference',
-      href: '/mtc-blog/index.html',
-      image: '/mtc-blog/images/flyer.jpg'
+      href: 'mtc-blog/index.html',
+      image: 'mtc-blog/images/flyer.jpg'
     },
     {
       tag: 'Press Release',
       title: 'SOL Premieres Three Transformative Books by Pastor Henry Oise',
-      href: '/book-launch/index.html',
-      image: '/book-launch/images/flyer.jpg'
+      href: 'book-launch/index.html',
+      image: 'book-launch/images/flyer.jpg'
     }
   ];
   // ===================================================

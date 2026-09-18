@@ -494,7 +494,6 @@ nav ul li a:hover {
 
 /* ===== Hero ===== */
 #hero {
-  min-height: 86vh;
   min-height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)),
@@ -502,13 +501,10 @@ nav ul li a:hover {
   background-attachment: fixed;
   position: relative;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: start;
 }
-@media (max-width: 768px) {
-  #hero {
-    background-attachment: scroll;
-  }
-}
+
 .hero-scrim {
   position: absolute;
   inset: 0;
@@ -523,8 +519,8 @@ nav ul li a:hover {
   position: relative;
   z-index: 1;
   max-width: 760px;
-  padding: 150px 28px 80px;
-  margin: 0 2rem;
+  padding: 0px 28px 80px !important;
+  margin: 0 2rem ;
 }
 .kicker {
   font-size: 13px;
@@ -563,7 +559,7 @@ nav ul li a:hover {
   color: #f5f9ff;
   background-color: var(--accent-color);
   align-self: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.5px;
   padding: 10px 20px;
@@ -611,6 +607,22 @@ nav ul li a:hover {
 .btn-watch-video:hover i {
   background: var(--accent-light);
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero {
+    background-attachment: scroll;
+  }
+  .hero-inner {
+    padding: 0px 28px !important;
+  }
+  .btn-watch-video {
+    font-size: 0.8rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+    padding: 10px 10px;
+  }
 }
 
 /* ===== Article ===== */
