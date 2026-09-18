@@ -24,8 +24,15 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
-  // ---- Nav: button-based hamburger + off-canvas panel + dropdowns ----
+    // Close mobile nav (checkbox-driven) after tapping a link
   const navToggle = document.getElementById('toggle');
+  if (navToggle) {
+    document.querySelectorAll('nav.menu ul li').forEach(link => {
+      link.addEventListener('click', () => { navToggle.checked = false; });
+    });
+  }
+
+  // ---- Nav: button-based hamburger + off-canvas panel + dropdowns ----
   const mainNav = document.getElementById('mainNav');
 
   if (navToggle && mainNav) {
